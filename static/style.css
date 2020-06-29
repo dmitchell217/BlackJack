@@ -1,0 +1,70 @@
+.game {
+    padding: 20px;
+    text-align: center;
+    background: tan;
+    border: solid 10px;
+    border-color: black;
+}
+
+div {
+    display:block
+}
+
+.content {
+    position: relative;
+    background: lawngreen;
+}
+
+.deck {
+    float: left;
+    display: inline-flex;
+    background: white;
+    padding: 15px;
+    border: double 10px;
+}
+
+h3 {
+    background-color: black;
+    color: white
+}
+
+.game-body {
+    display: block;
+}
+
+.game-options {
+    padding: 20px;
+    float: center;
+    margin: 30px;
+}
+
+
+.game-options input {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 14px 6px;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration-color: cornflowerblue;
+}
+input:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.player {
+    width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 1%;
+    background: white;
+}
+
+.active {
+    border: solid 5px #222;
+}
+
+
+/* add totals and fix winner
+add bar chart if feeling good */
